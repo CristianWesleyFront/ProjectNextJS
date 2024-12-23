@@ -1,12 +1,15 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { redirect, useParams } from "next/navigation";
 import Comments from "./comments";
 import ProjectDetails from "./details";
 import HeaderProjectDetails from "./header";
 import TaskTable from "./tasks";
+import { LoaderCircle } from "lucide-react";
+import { useSession } from "next-auth/react";
 
 export default function Page() {
+  const session = useSession();
   const params = useParams<{ id: string}>();
 
   if (!params?.id) {
@@ -15,6 +18,19 @@ export default function Page() {
         Not Found Project
       </div>
     );
+  }
+
+  if (session.status === 'loading') {
+    return (
+      <div className="flex flex-1 flex-col justify-center align-center h-max w-max">
+        <LoaderCircle />
+        Loading...
+      </div>
+    )
+  }
+
+  if (session.status === "unauthenticated") {
+    redirect("/login");
   }
 
   return (

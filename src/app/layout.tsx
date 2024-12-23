@@ -3,9 +3,9 @@ import "@/styles/globals.css"
 import { cn } from "@/lib/utils"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
-import HeaderLayout from "@/components/layout/header"
 import { ProjectProvider } from "@/context/project-context"
 import { Toaster } from "@/components/ui/toaster"
+import { SessionProvider } from "@/config/sessionProvider"
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -52,13 +52,15 @@ export default function RootLayout({ children }: RootLayoutProps) {
           fontSans.variable,
         )}
       >
+
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <ProjectProvider>
-            <HeaderLayout />
-            {children}
-            <Toaster />
-            <TailwindIndicator />
-          </ProjectProvider>
+          <SessionProvider>
+              <ProjectProvider>
+                {children}
+                <Toaster />
+                <TailwindIndicator />
+              </ProjectProvider>
+          </SessionProvider>
         </ThemeProvider>
       </body>
     </html>

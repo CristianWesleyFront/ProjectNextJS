@@ -1,3 +1,4 @@
+
 'use client'
 import { startOfMonth, endOfMonth, format } from "date-fns"
 import { utils, writeFile } from "xlsx";
@@ -12,8 +13,12 @@ import { useProjects } from "@/context/project-context"
 import { useEffect, useState } from "react"
 import { DateRange } from "react-day-picker"
 import { Project } from "@/types"
+import { useSession } from "next-auth/react";
+import { redirect } from "next/navigation";
+import { LoaderCircle } from "lucide-react";
 
 export default function DashboardPage() {
+  const session = useSession();
   const { projects } = useProjects();
   const [dateRange, setDateRange] = useState<DateRange | undefined>({
     from: startOfMonth(new Date('01-01-2023')),
@@ -41,6 +46,19 @@ export default function DashboardPage() {
     utils.book_append_sheet(workbook, worksheet, "Projects");
     writeFile(workbook, `filtered_projects-${format(new Date(), 'mm-dd-yyyy')}.xlsx`);
   };
+
+  if (session.status === 'loading') {
+    return (
+      <div className="flex flex-1 flex-col justify-center align-center h-max w-max">
+        <LoaderCircle />
+        Loading...
+      </div>
+    )
+  }
+
+  if (session.status === "unauthenticated") {
+    redirect("/login");
+  }
 
   return (
     <div className="hidden flex-col md:flex">
