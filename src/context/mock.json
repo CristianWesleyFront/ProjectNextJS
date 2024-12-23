@@ -1,0 +1,318 @@
+[
+  {
+    "id": "1",
+    "name": "Website Redesign",
+    "description": "Redesign the company website to improve user experience.",
+    "startDate": "2024-01-15",
+    "endDate": "2024-03-15",
+    "status": "active",
+    "progress": 40,
+    "responsible": "Alice Johnson",
+    "tasks": [
+      { "id": "t1", "name": "Design wireframes", "completed": true },
+      { "id": "t2", "name": "Develop homepage", "completed": false }
+    ],
+    "comments": [
+      { "id": "c1", "content": "Great progress!", "createdAt": "2024-02-01", "author": "Bob Smith" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Mobile App Development",
+    "description": "Develop a cross-platform mobile application.",
+    "startDate": "2023-12-01",
+    "endDate": "2024-06-01",
+    "status": "delayed",
+    "progress": 25,
+    "responsible": "John Doe",
+    "tasks": [
+      { "id": "t3", "name": "Setup backend API", "completed": true },
+      { "id": "t4", "name": "Design app UI", "completed": false }
+    ],
+    "comments": [
+      { "id": "c2", "content": "UI design is pending.", "createdAt": "2024-01-10", "author": "Jane Roe" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Product Launch",
+    "description": "Coordinate the launch of the new product line.",
+    "startDate": "2024-02-01",
+    "endDate": "2024-05-01",
+    "status": "active",
+    "progress": 30,
+    "responsible": "Emily Davis",
+    "tasks": [
+      { "id": "t5", "name": "Plan launch event", "completed": false }
+    ],
+    "comments": []
+  },
+  {
+    "id": "4",
+    "name": "Market Analysis",
+    "description": "Conduct market research for the new region.",
+    "startDate": "2024-01-01",
+    "endDate": "2024-03-01",
+    "status": "complete",
+    "progress": 100,
+    "responsible": "Michael Lee",
+    "tasks": [
+      { "id": "t6", "name": "Collect survey data", "completed": true }
+    ],
+    "comments": [
+      { "id": "c3", "content": "Final report submitted.", "createdAt": "2024-02-28", "author": "Sarah Connor" }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Cloud Migration",
+    "description": "Migrate all on-premise infrastructure to the cloud.",
+    "startDate": "2023-11-01",
+    "endDate": "2024-02-15",
+    "status": "delayed",
+    "progress": 60,
+    "responsible": "Rachel Green",
+    "tasks": [
+      { "id": "t7", "name": "Configure cloud services", "completed": true },
+      { "id": "t8", "name": "Migrate databases", "completed": false }
+    ],
+    "comments": [
+      { "id": "c4", "content": "Database migration delayed.", "createdAt": "2024-01-20", "author": "Ross Geller" }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "SEO Optimization",
+    "description": "Optimize the website for search engines.",
+    "startDate": "2024-02-10",
+    "endDate": "2024-03-15",
+    "status": "active",
+    "progress": 10,
+    "responsible": "Will Smith",
+    "tasks": [
+      { "id": "t9", "name": "Analyze current SEO", "completed": false }
+    ],
+    "comments": []
+  },
+  {
+    "id": "7",
+    "name": "Internal Training Program",
+    "description": "Develop and implement an internal training program.",
+    "startDate": "2023-12-15",
+    "endDate": "2024-04-15",
+    "status": "active",
+    "progress": 50,
+    "responsible": "Monica Geller",
+    "tasks": [
+      { "id": "t10", "name": "Create training materials", "completed": true },
+      { "id": "t11", "name": "Schedule training sessions", "completed": false }
+    ],
+    "comments": [
+      { "id": "c5", "content": "First session was successful.", "createdAt": "2024-01-25", "author": "Chandler Bing" }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Cybersecurity Upgrade",
+    "description": "Implement new cybersecurity protocols.",
+    "startDate": "2024-01-10",
+    "endDate": "2024-04-10",
+    "status": "active",
+    "progress": 20,
+    "responsible": "James Bond",
+    "tasks": [
+      { "id": "t12", "name": "Review existing policies", "completed": false }
+    ],
+    "comments": []
+  },
+  {
+    "id": "9",
+    "name": "Social Media Campaign",
+    "description": "Run a campaign on major social media platforms.",
+    "startDate": "2024-02-01",
+    "endDate": "2024-03-01",
+    "status": "complete",
+    "progress": 100,
+    "responsible": "Sophia Williams",
+    "tasks": [
+      { "id": "t13", "name": "Create content calendar", "completed": true }
+    ],
+    "comments": [
+      { "id": "c6", "content": "Campaign reached 1M views!", "createdAt": "2024-03-01", "author": "Lucas Brown" }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Team Expansion",
+    "description": "Hire and onboard new team members.",
+    "startDate": "2023-10-01",
+    "endDate": "2024-01-01",
+    "status": "complete",
+    "progress": 100,
+    "responsible": "Jessica White",
+    "tasks": [
+      { "id": "t14", "name": "Conduct interviews", "completed": true },
+      { "id": "t15", "name": "Finalize offers", "completed": true }
+    ],
+    "comments": [
+      { "id": "c7", "content": "All new hires onboarded.", "createdAt": "2024-01-01", "author": "Derek Morgan" }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Supply Chain Optimization",
+    "description": "Improve the efficiency of the supply chain processes.",
+    "startDate": "2024-02-01",
+    "endDate": "2024-07-01",
+    "status": "active",
+    "progress": 35,
+    "responsible": "Hannah Taylor",
+    "tasks": [
+      { "id": "t16", "name": "Identify bottlenecks", "completed": true },
+      { "id": "t17", "name": "Implement tracking system", "completed": false }
+    ],
+    "comments": [
+      { "id": "c8", "content": "Tracking system demo scheduled.", "createdAt": "2024-03-10", "author": "Ethan Hunt" }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Office Renovation",
+    "description": "Renovate the main office building.",
+    "startDate": "2023-09-01",
+    "endDate": "2024-01-15",
+    "status": "complete",
+    "progress": 100,
+    "responsible": "Liam Adams",
+    "tasks": [
+      { "id": "t18", "name": "Finalize design plans", "completed": true },
+      { "id": "t19", "name": "Oversee construction", "completed": true }
+    ],
+    "comments": [
+      { "id": "c9", "content": "Office ready for reopening.", "createdAt": "2024-01-16", "author": "Olivia Jones" }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Customer Loyalty Program",
+    "description": "Launch a program to retain existing customers.",
+    "startDate": "2024-01-20",
+    "endDate": "2024-05-20",
+    "status": "active",
+    "progress": 50,
+    "responsible": "Chris Johnson",
+    "tasks": [
+      { "id": "t20", "name": "Define reward criteria", "completed": true },
+      { "id": "t21", "name": "Develop marketing materials", "completed": false }
+    ],
+    "comments": [
+      { "id": "c10", "content": "Customer survey conducted.", "createdAt": "2024-02-10", "author": "Sophia Garcia" }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "New Product R&D",
+    "description": "Research and develop a new product.",
+    "startDate": "2023-11-15",
+    "endDate": "2024-05-15",
+    "status": "delayed",
+    "progress": 60,
+    "responsible": "Nathan Cooper",
+    "tasks": [
+      { "id": "t22", "name": "Prototype development", "completed": true },
+      { "id": "t23", "name": "Testing phase", "completed": false }
+    ],
+    "comments": [
+      { "id": "c11", "content": "Prototype feedback collected.", "createdAt": "2024-03-01", "author": "Emily Carter" }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "IT Infrastructure Upgrade",
+    "description": "Upgrade company IT infrastructure.",
+    "startDate": "2024-01-01",
+    "endDate": "2024-04-01",
+    "status": "active",
+    "progress": 45,
+    "responsible": "David Martin",
+    "tasks": [
+      { "id": "t24", "name": "Server installation", "completed": true },
+      { "id": "t25", "name": "Network configuration", "completed": false }
+    ],
+    "comments": []
+  },
+  {
+    "id": "16",
+    "name": "HR Policy Update",
+    "description": "Review and update company HR policies.",
+    "startDate": "2024-02-01",
+    "endDate": "2024-06-01",
+    "status": "active",
+    "progress": 20,
+    "responsible": "Grace Taylor",
+    "tasks": [
+      { "id": "t26", "name": "Policy review", "completed": false }
+    ],
+    "comments": []
+  },
+  {
+    "id": "17",
+    "name": "Annual Report",
+    "description": "Prepare the annual financial report.",
+    "startDate": "2024-01-10",
+    "endDate": "2024-03-31",
+    "status": "active",
+    "progress": 70,
+    "responsible": "Mason Hill",
+    "tasks": [
+      { "id": "t27", "name": "Collect financial data", "completed": true },
+      { "id": "t28", "name": "Draft report", "completed": false }
+    ],
+    "comments": [
+      { "id": "c12", "content": "Draft version ready for review.", "createdAt": "2024-03-01", "author": "Lily Wilson" }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "International Expansion",
+    "description": "Plan and execute expansion into new markets.",
+    "startDate": "2023-07-01",
+    "endDate": "2024-07-01",
+    "status": "active",
+    "progress": 80,
+    "responsible": "Benjamin Clark",
+    "tasks": [
+      { "id": "t29", "name": "Market research", "completed": true },
+      { "id": "t30", "name": "Establish local partnerships", "completed": false }
+    ],
+    "comments": []
+  },
+  {
+    "id": "19",
+    "name": "Corporate Branding",
+    "description": "Revamp the company's branding strategy.",
+    "startDate": "2024-02-15",
+    "endDate": "2024-08-15",
+    "status": "active",
+    "progress": 10,
+    "responsible": "Chloe Evans",
+    "tasks": [
+      { "id": "t31", "name": "Review existing branding", "completed": false }
+    ],
+    "comments": []
+  },
+  {
+    "id": "20",
+    "name": "New Office Opening",
+    "description": "Open a new office in a strategic location.",
+    "startDate": "2024-03-01",
+    "endDate": "2024-09-01",
+    "status": "active",
+    "progress": 5,
+    "responsible": "Daniel Baker",
+    "tasks": [
+      { "id": "t32", "name": "Finalize lease agreement", "completed": false }
+    ],
+    "comments": []
+  }
+]
