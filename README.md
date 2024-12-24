@@ -1,7 +1,7 @@
 <div align="center" id="top"> 
   <img src="https://github.com/CristianWesleyFront/ProjectNextJS/blob/main/public/readme/dashboard.gif" alt="Project Dashboard" />
-  <a href="https://project-next-7vp3n4wto-cristianwesleyfronts-projects.vercel.app/">Demo</a>
 </div>
+<a align="center" href="https://project-next-7vp3n4wto-cristianwesleyfronts-projects.vercel.app/">Demo</a>
 
 <h1 align="center">Project Dashboard</h1>
 
