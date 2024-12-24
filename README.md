@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Project Dashboard" />
+  <img src="https://github.com/CristianWesleyFront/ProjectNextJS/blob/main/public/readme/dashboard.gif" alt="Project Dashboard" />
   <a href="https://project-next-7vp3n4wto-cristianwesleyfronts-projects.vercel.app/">Demo</a>
 </div>
 
@@ -8,9 +8,9 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/CristianWesleyFront/ProjectNextJS?color=56BEB8">
 
-  `<img alt="Github language count" src="https://img.shields.io/github/languages/count/CristianWesleyFront/ProjectNextJS?color=56BEB8">`
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/CristianWesleyFront/ProjectNextJS?color=56BEB8">
 
-  `<img alt="Repository size" src="https://img.shields.io/github/repo-size/CristianWesleyFront/ProjectNextJS?color=56BEB8">`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/CristianWesleyFront/ProjectNextJS?color=56BEB8">
 
 </p>
 
